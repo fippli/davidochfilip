@@ -41,6 +41,7 @@ main {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .drawer {
@@ -55,5 +56,4 @@ main {
   width: 160px;
   top: -270px;
   left: 50%;
-  z-index: 10;
 }
