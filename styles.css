@@ -9,7 +9,51 @@ body {
   font-family: "Schoolbell", monospace;
 }
 
-img {
+main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgb(230, 210, 190),
+    rgb(200, 180, 170)
+  );
+}
+
+.frame-img {
   width: 400px;
-  margin: 0 auto;
+  position: absolute;
+  z-index: 10;
+}
+.cover-art {
+  position: absolute;
+  width: 304px;
+  top: 48px;
+  left: 48px;
+}
+
+.painting-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.furniture-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.drawer {
+  width: 500px;
+  left: 30px;
+  bottom: -140px;
+  position: absolute;
+}
+
+.walkman {
+  position: absolute;
+  width: 160px;
+  top: -270px;
+  left: 50%;
+  z-index: 10;
 }
